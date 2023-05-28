@@ -1,0 +1,454 @@
+/* hero section */
+.hero__section {
+  background: #240053;
+}
+.hero__container {
+  max-width: 1002px;
+  margin: 0 auto;
+  height: 898px;
+  position: relative;
+}
+.hero__inner {
+  position: absolute;
+  width: 100%;
+  padding-top: 40px;
+}
+.hero__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero__title {
+  width: 914px;
+  height: 110px;
+  margin: 0 auto;
+
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 95px;
+  line-height: 110px;
+  /* identical to box height, or 116% */
+
+  text-align: center;
+
+  background: linear-gradient(
+    91.7deg,
+    #ffeb35 7.5%,
+    rgba(25, 253, 130, 0.99) 107.24%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.hero__subtitle {
+  width: 712px;
+  height: 64px;
+  margin: 0 auto;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  /* or 213% */
+
+  /* White */
+
+  color: #ffffff;
+}
+.hero__cta {
+  width: 169px;
+  height: 53px;
+
+  /* White */
+
+  background: #ffffff;
+  border-radius: 100px;
+  width: 169px;
+  height: 53px;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  transition: 0.3s;
+  color: #3d0072;
+  margin-top: 40px;
+}
+
+.group__1 {
+  position: absolute;
+  left: 35.4%;
+  right: 35.4%;
+  top: 4%;
+  bottom: 59.95%;
+  opacity: 0.05;
+}
+.group__2 {
+  position: absolute;
+  left: 18.5%;
+  right: 50%;
+  top: 29%;
+  bottom: 34.88%;
+  opacity: 0.05;
+}
+.group__3 {
+  position: absolute;
+  left: 51.9%;
+  right: 26.81%;
+  top: 29%;
+  bottom: 34.88%;
+  opacity: 0.05;
+}
+.group__4 {
+  position: absolute;
+  left: 1.7%;
+  right: 61.6%;
+  top: 54%;
+  bottom: 9.81%;
+  opacity: 0.05;
+}
+.group__5 {
+  position: absolute;
+  left: 68.7%;
+  right: 15.21%;
+  top: 54%;
+  bottom: 9.81%;
+  opacity: 0.05;
+}
+.phone {
+  position: absolute;
+  width: 932px;
+  height: 460px;
+  left: 100%;
+  top: 386px;
+  transform: translateX(-100%);
+}
+.phone img {
+  height: 100%;
+}
+
+/* products section */
+.products__section {
+  background: #240053;
+  margin-top: -50px;
+}
+.products__container {
+  background: white;
+  height: 660px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 3rem;
+}
+.products__inner {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.products__title {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 110px;
+  margin-bottom: 30px;
+  /* identical to box height, or 138% */
+
+  color: #3d0072;
+}
+.products__main {
+  margin: 0 auto;
+}
+.products__scroll {
+  display: flex;
+
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.scroll__wrapper {
+  overflow-x: scroll;
+  scrollbar-track-color: #f3f4f6;
+}
+
+.products__scroll img {
+  margin-right: 20px;
+}
+.products__scroll img:nth-last-child() {
+  margin-right: 0;
+}
+
+/* keen section */
+.keen__section {
+  background-color: white;
+  padding: 4.5rem 0;
+}
+.keen__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1250px;
+  padding: 16px;
+  margin: 0 auto;
+}
+.keen__left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.keen__right img {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+}
+.keen__title {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 80px;
+  /* or 100% */
+
+  color: #3d0072;
+}
+.keen__title span {
+  color: #e8356d;
+}
+.keen__subtitle {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+
+  color: #3d0072;
+}
+
+.keen__cta {
+  width: 172px;
+  height: 56px;
+  color: white;
+  background: #8807f7;
+  border-radius: 100px;
+}
+/* investment section */
+.investment__section {
+  padding: 4rem 0;
+  height: 702px;
+  background-image: url(../src/assets//arrow\ and\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.investment__container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.investment__title {
+  color: #0d9488;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 100px;
+  /* or 125% */
+}
+.investment__title span {
+  color: #3d0072;
+}
+.investment__subtitle {
+  max-width: 700px;
+
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+
+  color: #3d0072;
+}
+.investment__cta {
+  height: 20px;
+  border: 1px solid #8807f7;
+
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 100px;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  /* identical to box height */
+
+  /* Primary color */
+
+  color: #8807f7;
+}
+
+.investment__cta span {
+  margin-left: 15px;
+}
+
+/* access section */
+.access__section {
+  background: #1b0132;
+  padding-top: 4rem;
+}
+.access__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.access__top {
+  max-width: 1093px;
+}
+.access__title {
+  color: white;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 100px;
+}
+.access__subtitle {
+  max-width: 836px;
+
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  /* White */
+
+  color: #ffffff;
+}
+.access__cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 14px 20px;
+  gap: 18px;
+
+  /* White */
+
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  color: white;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+.access__image-wrapper {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .access__cta:hover {
+} */
+.access__bottom {
+  margin-top: 70px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid #240053;
+
+  background: #29014b;
+  box-shadow: 0px 10px 35px rgba(6, 46, 253, 0.25),
+    0px 15px 70px rgba(251, 64, 64, 0.25), 0px 30px 90px rgba(136, 7, 247, 0.5);
+  border-radius: 4px;
+}
+.access__cards {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 70px;
+}
+.access__card {
+  padding: 24px;
+  width: 359px;
+  margin: 0 auto;
+  transition: 0.3s;
+  text-align: left;
+  color: white;
+  border-radius: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.access__card:hover {
+  background: #3d0072;
+}
+.access__card__img-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.access__image {
+  display: inline-block;
+  margin-left: -60px;
+}
+.access__card-subtitle {
+  margin-bottom: 2rem;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* white */
+
+  color: #ffffff;
+}
+.access__card-name {
+  margin-bottom: 1.3rem;
+  font-size: 26px;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 122.4%;
+  /* identical to box height, or 32px */
+
+  color: #fefce8;
+}
+
+/* testimonials section  */
+.testimonials__section {
+  padding: 4rem 0;
+}
+.testimonials__title {
+  color: #3d0072;
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 125.9%;
+}
+.testimonials__title span {
+  color: #e8356d;
+}
+.testimonials__container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.testimonials__subtitle {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3d0072;
+}
