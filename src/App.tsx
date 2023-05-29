@@ -1,23 +1,39 @@
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Investment from "./components/Investment";
-import Keen from "./components/Keen";
-import Products from "./components/Products";
-import Access from "./components/Access";
-import Testimonials from "./components/Testimonials";
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+
+} from "react-router-dom";
+import Homepage from "./pages/Homepage"
+import InterestCalculator from "./pages/InterestCalculator"
+import CareerPage from "./pages/CareerPage"
 
 function App() {
+  const router  = createBrowserRouter(
+    [
+      {
+      path: '/',
+      element: (
+        <Homepage />
+      )
+    },
+    {
+      path: '/interest-calculator',
+      element: (
+        <InterestCalculator />
+      )
+    },
+    {
+      path: '/career-page',
+      element: (
+        <CareerPage />
+      )
+    }
+  ]
+  )
   return (
-    <>
-      <Header />
-      <Hero />
-      <Products />
-      <Keen />
-      <Investment />
-      <Access />
-      <Testimonials />
-    </>
+ <RouterProvider router={router} />
   );
 }
 
