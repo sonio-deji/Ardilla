@@ -11,11 +11,11 @@ function Header() {
   }
 const pageColours: Record<string, PageColours> = {
   '/': {
-    background: 'bg-[#240053]',
+    background: 'bg-[#240053] font-sans',
     button: 'bg-[#8807f7]'
   },
   '/interest-calculator': {
-    background: 'bg-[#10001F]',
+    background: 'bg-[#10001F] font-mono',
     button: 'bg-white text-[#3D0072;]'
   },
   '/career-page': {

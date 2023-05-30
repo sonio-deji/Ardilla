@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         'brand-purple': '#3d0072'
+      },
+      fontFamily: {
+        sans: ['Cabinet Grotesk'],
+        mono: ['Ubuntu']
       }
     },
   },

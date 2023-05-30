@@ -47,7 +47,7 @@ const InterestCalculator = () => {
       <section className="bg-[#10001F] px-3 lg:px-9 w-full">
         <div className="flex-col lg:flex-row flex justify-center gap-16 pt-[86px]">
         <div className="text-white max-w-full lg:max-w-[423px] w-full">
-          <h1 className="font-bold text-[40px]">Calculate Your interest</h1>
+          <h1 className="font-bold text-[40px]">Calculate Your Interest</h1>
           <form className="flex flex-col gap-12 mt-14">
             <label className="flex flex-col text-base font-medium text-[#9CA3AF] gap-4">
               How often are you saving?
@@ -74,13 +74,13 @@ const InterestCalculator = () => {
           <div className="flex flex-col gap-7">
             <div className="">
             <p className="text-[#9ca3af] text-xs font-medium">Total Balance</p>
-            <p className="text-[#3D0072] text-2xl font-bold">{(Number(savingInput.replace(/,/g, '')) * Number(lengthOfSaving)) + (Number(savingInput.replace(/,/g, '')) * 0.02 * Number(lengthOfSaving))}</p>
+            <p className="text-[#3D0072] text-2xl font-bold font-mono">{(Number(savingInput.replace(/,/g, '')) * Number(lengthOfSaving)) + (Number(savingInput.replace(/,/g, '')) * 0.02 * Number(lengthOfSaving))}</p>
             </div>
             <p className="text-base text-[#6b7280]">Saving <span className="font-bold">₦{savingInput}</span>  monthly for {lengthOfSaving} months will result in a balance of <span className="font-bold">₦{(Number(savingInput.replace(/,/g, '')) * Number(lengthOfSaving)) + (Number(savingInput.replace(/,/g, '')) * 0.02 * Number(lengthOfSaving))}</span> </p>
            <div>
            <p className="text-[#9ca3af] text-xs font-medium">Interest</p>
             <div>
-            <span className="text-[#3D0072] text-2xl font-bold">{Math.floor((Number(savingInput.replace(/,/g, '')) * 0.02 * Number(lengthOfSaving)))}</span><span className="font-medium text-[#3D0072] text-2xl">(2%)</span>
+            <span className="text-[#3D0072] font-mono text-2xl font-bold">{Math.floor((Number(savingInput.replace(/,/g, '')) * 0.02 * Number(lengthOfSaving)))}</span><span className="font-medium text-[#3D0072] text-2xl">(2%)</span>
 
             </div>
            </div>
@@ -88,7 +88,7 @@ const InterestCalculator = () => {
             <div>
               <p className="text-[#9ca3af] text-xs font-medium">Total Savings</p>
               <div>
-                <span className="text-[#3D0072] text-2xl font-bold">N{Number(lengthOfSaving) * Number(Number(savingInput.replace(/,/g, '')))}</span><span className="font-medium text-[#3D0072] text-2xl">(2%)</span>
+                <span className="text-[#3D0072] font-mono text-2xl font-bold">N{Number(lengthOfSaving) * Number(Number(savingInput.replace(/,/g, '')))}</span><span className="font-medium text-[#3D0072] text-2xl">(2%)</span>
               </div>
               <img src="/graph.png" alt="graph" />
             </div>
